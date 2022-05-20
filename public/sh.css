@@ -1,0 +1,202 @@
+body {
+	font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    color: #333;
+    padding: 1rem;
+	/* margin-left: 64px; */
+	/* margin-right: 64px; */
+    width: 1000px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-style: italic;
+	color: rgb(187, 37, 47);
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+h1.title {
+    color: #333;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+h2.subtitle {
+    color: darkgrey;
+    font-style: normal;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+img.resize {
+	width: 100%;
+}
+
+img.app {
+    border-radius: 16px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding-bottom: 1rem;
+  }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.menu {
+	color:			rgb(187, 37, 47);
+}
+
+.bordered {
+	border: 1px solid lightgray;
+	padding: 16px;
+	width: 100%;
+}
+
+.content {
+	float: left;
+	width: 500px;
+    padding-top: 9px
+}
+
+.nav {
+	float: left;
+	width: 300px;
+    text-align: right;
+    padding-right: 48px;
+}
+
+nav {
+    line-height:	1.5;
+    padding-bottom: 1rem;
+}
+
+nav ul {
+	padding-left: 0;
+	list-style-type: none;
+	margin:	0 auto;
+}
+
+nav a {
+	color:			rgb(187, 37, 47);
+	text-decoration: none;
+}
+
+nav a:hover {
+	color:			darkgray;
+}
+
+.section {
+    padding-top: 0.5rem;
+    font-style: italic;
+}
+
+.copy {
+	clear: both;
+	color: gray;
+}
+
+/* TABLES */
+
+table {
+    margin-bottom: 1rem;
+    border-collapse: separate;
+    border-spacing: 1rem 0;
+}
+
+.teacher-table td:first-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* FORM */
+
+/*
+form {
+    margin-bottom: 2em;
+    padding: 1.5em 2em;
+    background: #f4f7f8;
+    border-radius: 1em;
+}
+*/
+
+fieldset {
+    margin-left: -7px;
+    margin-top: 1em;
+    border: none;
+}
+
+.caption-text {
+    font-size: 12px;
+    margin-bottom: 1.5em;
+    display: block;
+}
+
+/*
+label {
+    display: block;
+    margin-bottom: 1ex;
+}
+*/
+
+textarea {
+    height: 150px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+textarea {
+    background: rgba(255, 255, 255, 0.1);
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(204, 204, 204);
+    font-size: 15px;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #333;
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='tel']:focus,
+textarea:focus {
+    background: #e6ebee;
+}
+
+.option-text {
+    font-size: 14px;
+}
+
+input[type='submit'] {
+    color: white;
+    background: rgb(187, 37, 47);
+    padding: 1em;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+}
+
+input[type='submit']:hover {
+    filter: brightness(85%);
+}
+
+.url-field {
+    display: none;
+}
